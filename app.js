@@ -88,6 +88,6 @@ function updateSelection(selectionEl, choice) {
   selectionEl.classList.remove("btn-spock");
 
   selectionEl.classList.add(`btn-${choice}`);
-  selectionEl.querySelector("img").src = `/images/icon-${choice}.svg`;
+  selectionEl.querySelector("img").src = `images/icon-${choice}.svg`;
   selectionEl.querySelector("img").alt = choice;
 }
